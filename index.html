@@ -3,11 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola Mundo</title>
+    <title>Perfil de Desarrollador</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 600px;
+            text-align: center;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px auto;
+        }
+        h1 {
+            font-size: 2em;
+            color: #333;
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #4a90e2;
+            font-size: 1.5em;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hola Mundo</h1>
-    <p>Bienvenido a tu primera página web en HTML.</p>
+    <div class="container">
+        <img src="https://via.placeholder.com/150" alt="Foto de Perfil" class="profile-pic">
+        <h1>Tu Nombre</h1>
+        <p>Desarrollador Full Stack apasionado por crear soluciones tecnológicas innovadoras. Con experiencia en tecnologías como HTML, CSS, JavaScript, y frameworks como React y Node.js.</p>
+        
+        <h2>Contacta Conmigo</h2>
+        <p>Me puedes encontrar en:</p>
+        
+        <div class="social-links">
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://github.com" target="_blank">GitHub</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+        </div>
+    </div>
 </body>
 </html>
 
